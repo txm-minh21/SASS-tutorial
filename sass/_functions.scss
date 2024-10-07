@@ -1,0 +1,5 @@
+@function light-comp($color) {
+    $complement: complement($color); // the color opposite to the input color on the color wheel
+    $light-complement: lighten($complement, 30%); // adding white to make it look brighter or paler
+    @return $light-complement;
+}
