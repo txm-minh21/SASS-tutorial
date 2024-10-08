@@ -6,3 +6,6 @@
 
 # To compile scss in terminal run:
     gulp
+
+# Add gulp-purgecss
+    npm install gulp-purgecss --save-dev
