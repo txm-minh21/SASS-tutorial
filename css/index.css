@@ -35,7 +35,7 @@ h1 {
 button {
   color: white;
   border: 0;
-  background: #326dee;
+  background: rgb(49, 235, 163);
   border-radius: 20px;
   padding: 0.75rem;
 }
@@ -158,43 +158,43 @@ button {
   }
 }
 .text-primary {
-  color: #326dee;
+  color: rgb(49, 235, 163);
 }
 
 .bg-primary {
-  background-color: #326dee;
+  background-color: rgb(49, 235, 163);
 }
 
 .bg-primary-light-2 {
-  background-color: rgb(91, 138.2, 241.4);
+  background-color: rgb(90.2, 239, 181.4);
 }
 
 .bg-primary-light-4 {
-  background-color: rgb(132, 167.4, 244.8);
+  background-color: rgb(131.4, 243, 199.8);
 }
 
 .bg-primary-light-6 {
-  background-color: rgb(173, 196.6, 248.2);
+  background-color: rgb(172.6, 247, 218.2);
 }
 
 .bg-primary-light-8 {
-  background-color: rgb(214, 225.8, 251.6);
+  background-color: rgb(213.8, 251, 236.6);
 }
 
 .bg-primary-dark-2 {
-  background-color: rgb(40, 87.2, 190.4);
+  background-color: rgb(39.2, 188, 130.4);
 }
 
 .bg-primary-dark-4 {
-  background-color: rgb(30, 65.4, 142.8);
+  background-color: rgb(29.4, 141, 97.8);
 }
 
 .bg-primary-dark-6 {
-  background-color: rgb(20, 43.6, 95.2);
+  background-color: rgb(19.6, 94, 65.2);
 }
 
 .bg-primary-dark-8 {
-  background-color: rgb(10, 21.8, 47.6);
+  background-color: rgb(9.8, 47, 32.6);
 }
 
 .text-secondary {
@@ -341,10 +341,10 @@ button {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #326dee;
+  background-color: rgb(49, 235, 163);
 }
 .btn-primary:hover {
-  background-color: rgb(73.5472972973, 125.7702702703, 239.9527027027);
+  background-color: rgb(72.2433628319, 237.2566371681, 173.3805309735);
 }
 
 .btn-complement-primary {
@@ -354,12 +354,12 @@ button {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #326dee;
-  color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+  background-color: rgb(49, 235, 163);
+  color: rgb(248.5398230088, 188.4601769912, 211.7168141593);
 }
 .btn-complement-primary:hover {
-  color: #326dee;
-  background-color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+  color: rgb(49, 235, 163);
+  background-color: rgb(248.5398230088, 188.4601769912, 211.7168141593);
 }
 
 .btn-secondary {
@@ -458,7 +458,7 @@ button {
   background-color: rgb(193.8, 255, 153);
 }
 
-.navbar .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-secondary, .navbar-primary {
+.navbar .container, .navbar-primary .container, .navbar, .navbar-primary {
   width: 100%;
   display: flex;
   align-items: center;
@@ -466,19 +466,15 @@ button {
   box-sizing: border-box;
 }
 
-.navbar, .navbar-secondary, .navbar-primary {
+.navbar, .navbar-primary {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.navbar .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
+.navbar .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
 }
 .navbar-primary {
-  background-color: #326dee;
-}
-
-.navbar-secondary {
-  background-color: #1ac888;
+  background-color: rgb(49, 235, 163);
 }
 
 .p-0 {
